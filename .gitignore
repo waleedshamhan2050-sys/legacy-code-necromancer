@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local run outputs — never commit a séance
+necromancer-out/
+*.db
+
+# Secrets — never commit these
+.env
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
